@@ -1,0 +1,14 @@
+CREATE TABLE `fact_data_values` (
+  `loaddate` datetime NOT NULL,
+  `sheet` varchar(128) NOT NULL,
+  `row` int(11) NOT NULL,
+  `col` varchar(2) NOT NULL,
+  `featureA` varchar(256) NOT NULL,
+  `featureB` varchar(256) NOT NULL,
+  `featureC` varchar(256) NOT NULL,
+  `featureD` varchar(256) NOT NULL,
+  `datatype` varchar(8) NOT NULL,
+  `year` varchar(4) NOT NULL,
+  `month` varchar(2) NOT NULL,
+  `value` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
